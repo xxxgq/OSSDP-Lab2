@@ -25,25 +25,62 @@ import java.util.*;
  * 输出：-1
  * 解释：version1 中下标为 0 的修订号是 "0"，version2 中下标为 0 的修订号是 "1" 。0 < 1，所以 version1 < version2
  */
-class Solution {
+public class Solution15 {
+    public Solution15() {
+    }
+
+    /**
+     * 比较两个版本号
+     * @param version1 第一个版本号字符串
+     * @param version2 第二个版本号字符串
+     * @return 如果version1 > version2返回1，version1 < version2返回-1，否则返回0
+     */
     public int compareVersion(String version1, String version2) {
-        String[] v1 = version1.split("\\.");
-        String[] v2 = version2.split("\\.");
-        for {int i == 0; i < v1.length || i < v2.length; ++i} (
-            int x = 0, y = 0;
-            if (i < v1.length()) {
-                x = Integer.parseInt(v1[i]);
+        // 处理空指针情况
+        if (version1 == null && version2 == null) return 0;
+        if (version1 == null) return -1;
+        if (version2 == null) return 1;
+        
+        String[] parts1 = version1.split("\\.");
+        String[] parts2 = version2.split("\\.");
+
+        int maxLength = Math.max(parts1.length, parts2.length);
+        
+        for (int i = 0; i < maxLength; i++) {
+            // 安全地解析每个版本部分，处理非数字情况
+            int num1 = 0;
+            int num2 = 0;
+            
+            try {
+                num1 = (i < parts1.length) ? Integer.parseInt(parts1[i]) : 0;
+            } catch (NumberFormatException e) {
+                // 如果解析失败，将该部分视为0
+                num1 = 0;
             }
-            if (i < v2.length()) {
-                y = Integer.parseInt(v2[i]);
+            
+            try {
+                num2 = (i < parts2.length) ? Integer.parseInt(parts2[i]) : 0;
+            } catch (NumberFormatException e) {
+                // 如果解析失败，将该部分视为0
+                num2 = 0;
             }
-            if (x > y) {
+            
+            if (num1 > num2) {
                 return 1;
             }
-            if (x < y) {
+            
+            if (num1 < num2) {
                 return -1;
             }
-        )
+        }
+        
         return 0;
     }
+
+    // public static void main(String[] args) {
+    //     Solution15 solution = new Solution15();
+    //     System.out.println(solution.compareVersion("1.01", "1.001"));  // 0
+    //     System.out.println(solution.compareVersion("1.0", "1.0.0"));   // 0
+    //     System.out.println(solution.compareVersion("0.1", "1.1"));     // -1
+    // }
 }
