@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="L2023113155_15_Test" time="0.065" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\git\lab4\target\test-classes;D:\git\lab4\target\classes;E:\apache-maven-3.9.11-bin\MAVEN—local repository\junit\junit\4.13.1\junit-4.13.1.jar;E:\apache-maven-3.9.11-bin\MAVEN—local repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="E:\JDK17\bin"/>
+    <property name="sun.java.command" value="C:\Users\xgq\AppData\Local\Temp\surefire7171570352739008776\surefirebooter16222107055393292026.jar C:\Users\xgq\AppData\Local\Temp\surefire7171570352739008776 2025-12-12T10-36-05_329-jvmRun1 surefire13222214808684732273tmp surefire_011627972280046721909tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\git\lab4\target\test-classes;D:\git\lab4\target\classes;E:\apache-maven-3.9.11-bin\MAVEN—local repository\junit\junit\4.13.1\junit-4.13.1.jar;E:\apache-maven-3.9.11-bin\MAVEN—local repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\xgq"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="E:\JDK17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\git\lab4"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\xgq\AppData\Local\Temp\surefire7171570352739008776\surefirebooter16222107055393292026.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+35-LTS-2724"/>
+    <property name="user.name" value="xgq"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="E:\apache-maven-3.9.11-bin\MAVEN—local repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\xgq\AppData\Local\Temp\"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="D:\git\lab4"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\JDK17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\xgq\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\xgq\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python314\Scripts\;C:\Python314\;D:\xuniji\vmware\bin\;E:\apps\CUDA\development\bin;E:\apps\CUDA\development\libnvvp;E:\python\Scripts\;E:\python\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\apps\git\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;E:\apps\Bandizip\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\JDK17\bin;E:\JDK17\jre\bin;E:\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\ProgramData\chocolatey\bin;E:\nodejs12\;E:\JDK17\bin;E:\py39\Scripts\;E:\py39\;E:\python36\Scripts\;E:\python36\;C:\Users\xgq\AppData\Local\Microsoft\WindowsApps;E:\apps\PyCharm 2023.2.7\bin;;E:\apps\PyCharm Community Edition 2023.3.6\bin;;%DevEco Studio%;E:\vscode\Microsoft VS Code\bin;E:\apps\webstorm\WebStorm 2023.3.4\bin;;C:\Users\xgq\AppData\Local\Muse Hub\lib;E:\apps\mingw64\bin;E:\nodejs\node_global;C:\Users\xgq\AppData\Roaming\npm;E:\JDK17\bin;;c:\Users\xgq\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17+35-LTS-2724"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testLeadingZerosAndMultiDigit" classname="L2023113155_15_Test" time="0.006"/>
+  <testcase name="testInvalidInputHandling" classname="L2023113155_15_Test" time="0"/>
+  <testcase name="testBoundaryConditions" classname="L2023113155_15_Test" time="0"/>
+  <testcase name="testLongVersionComparison" classname="L2023113155_15_Test" time="0"/>
+  <testcase name="testNormalVersionComparison" classname="L2023113155_15_Test" time="0"/>
+</testsuite>
